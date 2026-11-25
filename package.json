@@ -49,6 +49,7 @@
     "format:check": "prettier --check .",
     "lint": "npm run build && eslint .",
     "prebuild": "npm run clean",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run check",
     "test": "vitest run",
     "test:watch": "vitest",
